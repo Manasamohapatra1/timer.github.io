@@ -52,14 +52,23 @@ button {
         margin-top: 10px;
         font-family:'Poppins', sans-serif;
         color: rgb(9, 60, 97);
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     input[type="number"]{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     label{
-        font-size: 3.5vw;
+        font-size: 3.8vw;
     }
+    button.stopBtn{
+background-color: rgb(166, 77, 77);
+     }
+     button.startBtn{
+        background-color: rgb(68, 215, 85);
+             }
+     button.homeBtn{
+        background-color: rgb(185, 140, 222);
+                     }         
 }
 
 

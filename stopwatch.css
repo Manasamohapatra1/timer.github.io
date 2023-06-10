@@ -1,5 +1,5 @@
 body{
-  background: url('./pexels-allec-gomes-12306417.jpg') no-repeat;
+  background: url('./pexels-matej-1034425.jpg') no-repeat;
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body{
     text-align: center;
     margin-top: 10%;
     font-family:'Poppins', sans-serif;
-    color: rgb(187, 46, 212);
+    color: rgb(176, 195, 226);
 
   }
   
@@ -39,17 +39,30 @@ body{
     font-size: 1.5vw;
     
   }
+  button#startBtn{
+    background-color:rgb(171, 204, 171);
+  }
   @media screen and (max-width: 1000px){
     .container{
       margin-top:50%;
     }
     .controls button{
-      font-size: 3vw;
+      font-size: 2.5vw;
     }
     .home button{
       font-size: 3vw;
+      background-color: rgb(218, 158, 233);
     }
     h1#timer{
       font-size: 8vw;
+    }
+    button#startBtn{
+      background-color:rgb(171, 204, 171);
+    }
+    button#stopBtn{
+      background-color:rgb(233, 154, 153);
+    }
+    button#resetBtn{
+      background-color:rgb(127, 198, 225);
     }
   }
