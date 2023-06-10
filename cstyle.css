@@ -37,7 +37,7 @@ button {
     font-family:'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .countdown{
         width:100%;
         text-align: center;

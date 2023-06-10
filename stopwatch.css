@@ -42,7 +42,7 @@ body{
   button#startBtn{
     background-color:rgb(171, 204, 171);
   }
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1200px){
     .container{
       margin-top:50%;
     }
