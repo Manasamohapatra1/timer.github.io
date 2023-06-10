@@ -4,7 +4,7 @@ body{
     height: 100%;
     background-attachment: fixed;
     background-position: top center;
-   
+    align-items: center;
 
 }
 
@@ -35,10 +35,15 @@ button {
     font-family:'Poppins', sans-serif;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 1000px){
     .countdown{
-        width:50%;
+        width:100%;
         text-align: center;
+        margin-top: 50%;
+        font-family:'Poppins', sans-serif;
+        color: white;
+        padding: 5%;
+        font-size: 4vw;
     }
 }
 
