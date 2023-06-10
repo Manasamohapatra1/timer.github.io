@@ -1,5 +1,5 @@
 body{
-    background: url('./pexels-donald-tong-23474.jpg') no-repeat;
+    background: url('./pexels-mudassir-ali-2680270.jpg') no-repeat;
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
@@ -26,6 +26,8 @@ button {
     padding: 5px 10px;
     margin-top: 10px;
     font-family:'Poppins', sans-serif;
+    color: rgb(9, 60, 97);
+
 }
 
 #timer {
@@ -44,6 +46,19 @@ button {
         color: white;
         padding: 5%;
         font-size: 4vw;
+    }
+    button {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-family:'Poppins', sans-serif;
+        color: rgb(9, 60, 97);
+        font-size: 2.5vw;
+    }
+    input[type="number"]{
+        font-size: 2.5vw;
+    }
+    label{
+        font-size: 3.5vw;
     }
 }
 

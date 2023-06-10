@@ -1,5 +1,5 @@
 body{
-  background: url('./pexels-donald-tong-23475.jpg') no-repeat;
+  background: url('./pexels-allec-gomes-12306417.jpg') no-repeat;
   background-size: cover;
   height: 100%;
   background-attachment: fixed;
@@ -38,4 +38,18 @@ body{
     font-weight: bold;
     font-size: 1.5vw;
     
+  }
+  @media screen and (max-width: 1000px){
+    .container{
+      margin-top:50%;
+    }
+    .controls button{
+      font-size: 3vw;
+    }
+    .home button{
+      font-size: 3vw;
+    }
+    h1#timer{
+      font-size: 8vw;
+    }
   }
