@@ -1,0 +1,41 @@
+body{
+  background: url('./pexels-donald-tong-23475.jpg') no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: top center;
+ 
+
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 10%;
+    font-family:'Poppins', sans-serif;
+    color: rgb(187, 46, 212);
+
+  }
+  
+  h1#timer {
+    font-size: 5vw;
+    font-family:'Poppins', sans-serif;
+}
+  
+  
+  .controls button {
+    margin: 1%;
+    font-family:'Poppins', sans-serif;
+    border-radius: 1vw;
+    color: #06000c;
+    font-weight: bold;
+}
+  
+  .home button{
+     margin: 5%;
+    font-family:'Poppins', sans-serif;
+    color: #06000c;
+    font-weight: bold;
+    font-size: 1.5vw;
+    
+  }

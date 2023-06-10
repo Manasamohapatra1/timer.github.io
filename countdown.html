@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet"  href="cstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+   
+        <div class="countdown">
+            <h2>Countdown Timer</h2>
+            <div>
+                <label for="duration">Duration (in seconds):</label>
+                <input type="number" id="duration" min="1">
+                <button onclick="startCountdown()">Start</button>
+            </div>
+            <div id="timer"></div>
+            <audio id="ringtone">
+                <source src="funny-alarm-48749.mp3" type="audio/mpeg">
+            </audio>
+            <button onclick="stopRingtone()">Stop Ringtone</button>
+            <a href="index.html"><button>Home</button></a>
+        </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
