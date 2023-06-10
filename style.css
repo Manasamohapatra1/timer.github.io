@@ -48,11 +48,11 @@ a {
 .bar {
   display: block;
   width: 30px;
-  height: 5px;
+  height: 6px;
   margin: 6px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #0c9ddb;
+  background-color: #0993ce;
 }
 .nav-menu {
   display: flex;
@@ -314,7 +314,7 @@ button:focus{
     width:60%;
     margin: auto;
     margin-top: 50%;
-    font-size: 2.3vw;
+    font-size: 2.5vw;
 
   }
 }
