@@ -265,7 +265,7 @@ button:focus{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
   .nav-menu {
     position: fixed;
     left: -100%;
